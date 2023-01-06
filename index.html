@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hangman</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.mjs" type="module"></script>
+
+<div>
+ 	<h1 id= "mainTitle">Hangman</h1>
+ 	<h2 id= "title">The Hangman Game</h2>
+ 	<p id= "welcome">
+ 	Use the alphabets provided below to find the word or click the hint button to get a special clue 
+ 	</p>
+</div>
+
+<img id= "hangman" src= 'images/default.png'>
+
+<div id="playButtons">
+
+  <p id="secretWord"></p>
+  <p id="showLives"></p>
+  <p id="mainHint"></p>
+   <div id= "keyboard"></div>
+
+
+    <button id="hint">Hint</button>
+    <button id="reset">Play again</button>
+
+    <p id=wrongLetter></p>
+
+  <p id="end"></p>
+</div>
